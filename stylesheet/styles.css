@@ -325,6 +325,7 @@ header {
 }
 
 header .cluster {
+  justify-content: center;
   gap: var(--s-5);
 }
 
