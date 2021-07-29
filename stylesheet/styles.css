@@ -118,7 +118,6 @@ textarea {
 }
 
 /* ELEMENT STYLING */
-/* Font weights */
 h1,
 h2,
 h3 {
@@ -194,6 +193,10 @@ article {
 
 em {
   color: var(--clr-black);
+}
+
+section[id]:target {
+  scroll-padding-top: var(--s2);
 }
 
 /* UTILITY CLASSES */
