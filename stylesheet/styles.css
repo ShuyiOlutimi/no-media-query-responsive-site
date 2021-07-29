@@ -322,7 +322,10 @@ em {
 /* SECTIONAL STYLING */
 header {
   padding-block-start: 1rem;
-  justify-content: space-between;
+}
+
+header .cluster {
+  gap: var(--s-5);
 }
 
 main>*+* {
