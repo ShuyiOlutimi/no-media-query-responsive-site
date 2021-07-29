@@ -28,7 +28,7 @@ ol[role="list"] {
 }
 
 /* Set core root defaults */
-html:focus-within {
+html {
   scroll-behavior: smooth;
 }
 
@@ -113,7 +113,7 @@ textarea {
   --s5: calc(var(--s4) * var(--ratio));
 
   /* Width */
-  --measure: 60ch;
+  --measure: 65ch;
   --space: 1rem;
 }
 
@@ -151,8 +151,12 @@ p {
   line-height: 1.75rem;
 }
 
-.reel p {
-  font-size: var(--fs-16);
+p.text-dark {
+  margin-block-start: .75rem;
+}
+
+article p {
+  max-width: 65ch;
 }
 
 a {
@@ -160,8 +164,7 @@ a {
   text-decoration: none;
   font-weight: var(--fw-600);
   color: var(--clr-black);
-  padding: var(--s0);
-  white-space: nowrap;
+  padding: var(--s1);
 }
 
 main a,
@@ -220,7 +223,7 @@ em {
 .cluster {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--s0);
+  gap: var(--s1);
   justify-content: flex-start;
   align-items: center;
 }
@@ -308,7 +311,7 @@ em {
   content: "";
   display: block;
   width: 37ch;
-  height: 90%;
+  height: 82%;
   background-image: url(../img/Grainy-Background-Grey\ Grain.png);
   position: absolute;
   left: -2rem;
@@ -354,10 +357,6 @@ main>section>*+* {
   gap: var(--s1);
 }
 
-article p {
-  max-width: 65ch;
-}
-
 #perspective article {
   background-color: var(--clr-background);
   /* max-width: 45ch; */
@@ -374,9 +373,14 @@ article p {
   }
 }
 
-p.text-dark {
-  margin-block-start: .75rem;
+#testimonial p {
+  font-size: var(--fs-16);
 }
+
+#features *+* {
+  margin-block-start: 0;
+}
+
 
 #newsletter h2 {
   font-weight: var(--fw-700);
@@ -432,8 +436,8 @@ footer p {
   all: unset;
   display: inline-block;
   text-decoration: none;
-  font-weight: var(--fw-400);
   white-space: nowrap;
+  font-weight: var(--fw-400);
   padding-block-end: var(--s0);
 }
 
