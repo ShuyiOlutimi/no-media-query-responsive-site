@@ -195,7 +195,7 @@ em {
   color: var(--clr-black);
 }
 
-section[id]:target {
+section:target {
   scroll-padding-top: var(--s2);
 }
 
