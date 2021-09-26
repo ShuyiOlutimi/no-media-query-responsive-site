@@ -366,11 +366,6 @@ header {
   padding-block-start: 1rem;
 }
 
-header .cluster {
-  justify-content: center;
-  gap: var(--s-5);
-}
-
 main>*+* {
   --space: var(--s4);
   margin-block-start: var(--space);
