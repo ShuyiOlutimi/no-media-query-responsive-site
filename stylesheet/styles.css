@@ -166,6 +166,10 @@ a {
   padding: var(--s1);
 }
 
+header a {
+  padding: .5rem;
+}
+
 main a,
 a:hover,
 a:active {
