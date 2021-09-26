@@ -201,8 +201,8 @@ section:target {
 
 /* UTILITY CLASSES */
 .container {
-  padding-inline-start: var(--s1);
-  padding-inline-end: var(--s1);
+  padding-inline-start: var(--s0);
+  padding-inline-end: var(--s0);
   max-width: 80rem;
   margin-inline-start: auto;
   margin-inline-end: auto;
