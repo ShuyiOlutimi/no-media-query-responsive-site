@@ -303,7 +303,7 @@ section:target {
 
 .reel::-webkit-scrollbar-thumb {
   border-radius: 100vw;
-  background: linear-gradient(to right, var(--clr-white), var(--clr-pale), var(--clr-dark), var(--clr-black) 40%);
+  background: linear-gradient(to right, var(--clr-white), var(--clr-pale), var(--clr-dark), var(--clr-black));
 }
 
 @supports (scrollbar-color: var(--clr-white) var(--clr-pale)) {
